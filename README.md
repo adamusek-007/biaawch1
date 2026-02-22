@@ -1,4 +1,4 @@
-# Cloud Task Manager - Książka Azure w Praktyce by Adam Kuczabiński 99765
+# Cloud Task Manager - by Adam Kuczabiński 99765
  
 Projekt natywnej aplikacji chmurowej realizowany w architekturze 3-warstwowej.
  
