@@ -30,6 +30,11 @@ services:
       - "1433:1433"
     networks:
       - cloud-network
+    volumes:
+      - sql-data:/var/opt/mssql
 networks:
   cloud-network:
     driver: bridge
+
+volumes:
+  sql-data:
