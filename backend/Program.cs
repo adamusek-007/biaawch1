@@ -9,7 +9,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 // 3. Pobranie Connection Stringa (zmiennej środowiskowej z Dockera)
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+var connectionString= Environment.GetEnvironmentVariable("DB_CONNECTION_STRING")
+?? builder.Configuration.GetConnectionString("DefaultConnection");
 // 4. Rejestracja bazy danych MS SQL Server
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(connectionString));
