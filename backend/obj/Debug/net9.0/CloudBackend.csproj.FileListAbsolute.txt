@@ -190,3 +190,5 @@
 /home/adam/adam-kuczabinski-projekt-1/backend/obj/Debug/net9.0/CloudBackend.pdb
 /home/adam/adam-kuczabinski-projekt-1/backend/obj/Debug/net9.0/CloudBackend.genruntimeconfig.cache
 /home/adam/adam-kuczabinski-projekt-1/backend/obj/Debug/net9.0/ref/CloudBackend.dll
+/home/adam/adam-kuczabinski-projekt-1/backend/bin/Debug/net9.0/package-lock.json
+/home/adam/adam-kuczabinski-projekt-1/backend/bin/Debug/net9.0/package.json
