@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/2ee12926-2a4e-4687-b94f-21d3b9d75175/resourceGroups/studia-wsb/providers/Microsoft.Web/sites/999765-frontendado",
+    "appService.deploySubpath": "frontend/dist"
+}
