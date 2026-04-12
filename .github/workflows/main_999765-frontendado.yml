@@ -21,7 +21,7 @@ jobs:
           npm run build
         working-directory: ./frontend
         env:
-          VITE_API_URL: "Tu wstaw adres swojego backendu np. https://99765-adasiek-a4a7d8e6gqcbgraq.polandcentral-01.azurewebsites.net/api"
+          VITE_API_URL: "https://99765-adasiek-a4a7d8e6gqcbgraq.polandcentral-01.azurewebsites.net/api"
 
       - name: Upload
         uses: actions/upload-artifact@v4
