@@ -204,3 +204,11 @@
 /home/adam/adam-kuczabinski-projekt-1/backend/obj/Debug/net9.0/CloudBackend.pdb
 /home/adam/adam-kuczabinski-projekt-1/backend/obj/Debug/net9.0/CloudBackend.genruntimeconfig.cache
 /home/adam/adam-kuczabinski-projekt-1/backend/obj/Debug/net9.0/ref/CloudBackend.dll
+/home/adam/adam-kuczabinski-projekt-1/backend/bin/Debug/net9.0/publish/web.config
+/home/adam/adam-kuczabinski-projekt-1/backend/bin/Debug/net9.0/publish/appsettings.Development.json
+/home/adam/adam-kuczabinski-projekt-1/backend/bin/Debug/net9.0/publish/appsettings.json
+/home/adam/adam-kuczabinski-projekt-1/backend/bin/Debug/net9.0/publish/CloudBackend.deps.json
+/home/adam/adam-kuczabinski-projekt-1/backend/bin/Debug/net9.0/publish/CloudBackend.runtimeconfig.json
+/home/adam/adam-kuczabinski-projekt-1/backend/bin/Debug/net9.0/publish/CloudBackend.staticwebassets.endpoints.json
+/home/adam/adam-kuczabinski-projekt-1/backend/bin/Debug/net9.0/publish/package-lock.json
+/home/adam/adam-kuczabinski-projekt-1/backend/bin/Debug/net9.0/publish/package.json
