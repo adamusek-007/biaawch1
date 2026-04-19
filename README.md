@@ -19,3 +19,4 @@ Ten projekt został zaplanowany z myślą o usługach PaaS (Platform as a Servic
 * [x] Poprawa api oraz migracji
 * [x] Deployment na platformę Azure
 * [x] Podmiana wykorzystania secretów Azurowych
+* [x] Konfiguracja CI/CD backendu
