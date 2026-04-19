@@ -1,0 +1,58 @@
+// .vscode/tasks.json
+{
+    "version": "2.0.0",
+    "tasks": [
+        // ─── BACKEND ──────────────────────────────────────────────
+        {
+            "label": "🔨 Build Backend",
+            "type": "shell",
+            "command": "dotnet publish -c Release -o backend/publish",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "group": "build",
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "🚀 Deploy Backend → 99765-adasiek",
+            "type": "shell",
+            "command": "az webapp deploy --resource-group studia-wsb --name 99765-adasiek --src-path backend/publish --type zip --clean true",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "dependsOn": "🔨 Build Backend",
+            "problemMatcher": []
+        },
+        // ─── FRONTEND ─────────────────────────────────────────────
+        {
+            "label": "🔨 Build Frontend",
+            "type": "shell",
+            "command": "npm run build",
+            "options": {
+                "cwd": "${workspaceFolder}/frontend"
+            },
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "label": "🚀 Deploy Frontend → 999765-frontendado",
+            "type": "shell",
+            "command": "az webapp deploy --resource-group studia-wsb --name 999765-frontendado --src-path frontend/dist --type zip --clean true",
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "dependsOn": "🔨 Build Frontend",
+            "problemMatcher": []
+        },
+        // ─── OBA NARAZ ────────────────────────────────────────────
+        {
+            "label": "🚀 Deploy ALL (Frontend + Backend)",
+            "dependsOn": [
+                "🚀 Deploy Backend → 99765-adasiek",
+                "🚀 Deploy Frontend → 999765-frontendado"
+            ],
+            "dependsOrder": "parallel",
+            "problemMatcher": []
+        }
+    ]
+}

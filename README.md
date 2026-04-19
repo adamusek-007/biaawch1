@@ -16,3 +16,6 @@ Ten projekt został zaplanowany z myślą o usługach PaaS (Platform as a Servic
 * [x] **Artefakt 2:** Konfiguracja środowiska Docker (w trakcie...).
 * [x] Utworzenie fontend-u: page dashboarda oraz serwisu api, utworzenie pliku `.env`, aktualizacja dockerfile.
 > **Informacja:** Ten plik będzie ewoluował. W kolejnych etapach dodamy tutaj sekcje 'Quick Start', opis zmiennych środowiskowych oraz instrukcję wdrożenia (CI/CD).
+* [x] Poprawa api oraz migracji
+* [x] Deployment na platformę Azure
+* [x] Podmiana wykorzystania secretów Azurowych
